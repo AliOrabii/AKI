@@ -37,6 +37,13 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  // Second Commit
+  void _decrementCounter() {
+    setState(() {
+      _counter--;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
