@@ -37,6 +37,20 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  // Second Commit
+  void _decrementCounter() {
+    setState(() {
+      _counter--;
+    });
+  }
+
+  // Third Commit
+  void _MultiplyCounter() {
+    setState(() {
+      _counter * 2;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
